@@ -1,0 +1,46 @@
+Create a class called PUBG and using random module, randomly provide Grenades,Guns,Knife,Sield and Pan to the players
+
+
+coin change problem:
+
+ATM Machine
+
+2000
+4 * 500
+1 * 2000
+10 * 200
+20 * 100
+
+
+Ask the user to load the money in the bank
+
+10000
+Enter the count of 500 rs note: 6
+Enter the count of 200 rs note: 10
+[500:6, 200: 10, 100: 50]
+
+
+Enter the amount to be withdrawn:
+7300
+
+[6 * 500, 10 * 200, 23 * 100]
+
+6+10+23
+
+Withdrawal successful: you have 39 notes in your hand:
+ATM Balance: 2700
+[500: 0, 200: 0, 100 : 27]
+
+Withdraw: 1500
+Withdrawal successful: you have 15 notes in your hand:
+ATM Balance: 1200
+
+Withdraw: 1500
+Cannot dispense Cash
+
+Withdraw: 1200
+Withdrawal successful: you have 12 notes in your hand:
+
+withdraw: 100
+Load the ATM with money
+

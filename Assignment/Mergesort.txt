@@ -1,0 +1,22 @@
+Aman and Nitish are friends and each and they have a list of favourite numbers. One day Sohan wanted to test their friendship and bond and he decided to give them a task. The task is to list all the favourite number of Aman and Nitish individually and merge them in the following manner
+
+1. Create a list that contains the fav numbers of Nitish First and Aman's Next
+2. Create a list that contains the fav numbers of Aman and Nitish in zig zag manner
+3. Create a list that contains the fav numbers of Aman and Nitish in sorted manner
+
+Test Case 1:
+
+Aman List : [12,23,34,45,56,78,89]
+Nitish List: [11,22,33,44,55]
+Final List: [11,22,33,44,55,12,23,34,45,56,78,89]
+
+Test Case 2:
+
+Aman List : [12,23,34,45,56,78,89]
+Nitish List: [11,22,33,44,55]
+Final List: [12,11,23,22,34,33,45,44,56,55,78,89]
+
+Test Case 3:
+Aman List : [12,23,34,45,56,78,89]
+Nitish List: [11,22,33,44,55]
+Final List: [11,12,22,23,33,34,44,45,55,56,78,89]
