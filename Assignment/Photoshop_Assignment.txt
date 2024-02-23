@@ -1,0 +1,19 @@
+Create an application called Photoshop
+Photoshop application has the capabilit to open different files of different type. Each an every file type will have a different behaviour when opened using photoshop. The file behaviour as associated with the files. Wrtie a python code such that,the files are openend and their respective behaviours are loaded.
+
+Below is the sample test case and the behaviours of the file.
+
+Jpeg File - Behaviour (Openend as Flattened Image)
+Png File - Behaviour (Opened as Layer)
+Gif File - Behaviour (Opened as multiple layers with timeline)
+Pdf File - Behaviours (Opened as Layer)
+
+Test Case:
+
+Enter the Filename to be opened: Test.jpg
+Photoshop opened the following file with the below properties:
+
+FileName: Test.jpg
+File Extension: .jpg
+File Behaviour: Opened as Flattened Image
+
