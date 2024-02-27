@@ -1,0 +1,6 @@
+A panda Series can be created in the following ways:
+
+1. Using list
+2. Using Dictionary
+3. Using Numpy
+4. Using ScalarValues
