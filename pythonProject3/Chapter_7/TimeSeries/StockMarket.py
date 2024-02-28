@@ -66,3 +66,12 @@ img_4 = plexp.line(
     title= 'Volatility of Stocks'
 )
 img_4.show()
+
+apple = df.loc[df['Ticker'] == 'AAPL',['Date','Close']].rename(columns={'Close':'AAPL'})
+microsoft = df.loc[df['Ticker'] == 'MSFT',['Date','Close']].rename(columns={'Close':'MSFT'})
+correlation = pa.merge(apple,microsoft,on='Date')
+img_5 = plexp.scatter(correlation,
+                      x = 'AAPL', y = "MSFT",
+                      trendline= 'expanding',
+                      title="Correlation between APPLE and MICROSOFT Stocks")
+img_5.show()
