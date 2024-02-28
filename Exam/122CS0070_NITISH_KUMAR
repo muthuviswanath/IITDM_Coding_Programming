@@ -1,0 +1,20 @@
+#1)  Banana Apple Strawberry
+
+#2)  10 30 50 70 90
+
+#3)  Tomato Strawberry Grapes
+
+#4)  50 60 70 80 90
+
+#5)  59 11
+
+#6)  Total 2 times searched
+
+#7)  
+str1=input("Enter the first String: ")
+str2=input("Enter the second string: ")
+if sorted(str1)==sorted(str2):
+    print(f"{str1} and {str2} are anagram.")
+else:
+    print(f"{str1} and {str2} are not anagram.")
+
